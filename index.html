@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>faizmarchendise</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Navbar -->
+    <link rel="stylesheet" href="css/navbar-footer.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="assets/LogoFaiz.png" type="image/x-icon">
+
+    <!-- Link Floating -->
+    <link rel="stylesheet" href="css/mfb.min.css">
+
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container-fluid p-0">
+        <!-- <div class="container"> -->
+        <nav class="navbar mynav navbar-expand-lg w-100 ">
+            <div class="container">
+                <a class="navbar-brand " href="#">
+                    <img src="assets/LogoFaiz.png" class="h-100" alt="">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex justify-content-center align-items-center w-100">
+                        <a class="nav-link  me-xl-4 me-3" aria-current="page" href="#">Home</a>
+                        <a class="nav-link me-xl-4 me-3" href="#service">Kenapa Kami</a>
+                        <a class="nav-link me-xl-4 me-3" href="#about">Tentang</a>
+                        <a class="nav-link me-xl-4 me-3" href="#product">Produk</a>
+                        <a class="nav-link me-xl-4 me-3" href="#contact-info">Kontak</a>
+                    </div>
+                    <div class="nav-left d-lg-flex d-block ms-auto">
+                        <!-- <button class="outless-button me-2">Daftar</button> -->
+                        <button class="primary-button mt-2 mt-lg-0" onclick=whatsapp()>Hubungi Kami</button>
+                    </div>
+                </div>
+                <a href="mailto:faizmarchendise@gmail.com"
+                    class="d-lg-none d-inline social-nav text-decoration-none d-flex align-items-center">
+                    <ion-icon name="mail" class="me-2"></ion-icon>faizmarchendise@gmail.com/085722234393
+                </a>
+                <!-- <a href="https://api.whatsapp.com/send?phone=6285722234393&text=Hallo%20Saya%20tertarik%20dengan%20jasa%20dan%20produk%20anda%2C%20saya%20ingin%20order%20sesuatu"" class="
+                    d-lg-none d-inline social-nav text-decoration-none d-flex align-items-center">
+                    <ion-icon name="logo-whatsapp" class="me-2"></ion-icon>085722234393
+                </a> -->
+                <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <label for="check">
+                        <input type="checkbox" id="check" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </button>
+
+
+
+            </div>
+        </nav>
+        <!-- </div> -->
+    </div>
+    <!-- End Navbar -->
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="overlay w-100 h-100 position-absolute top-0 start-0"></div>
+        <div class="container h-100">
+            <div class="row h-100 d-flex align-items-center">
+                <div class="col-md-6 order-md-1 order-2 " data-aos="fade-up" data-aos-duration="2000">
+                    <h2 class="fw-bold">Home Produksi Yang Menerima Jasa Pembuatan Segala Macam Marchendise Logam</h2>
+                    <p class="mt-2">Faiz Marchendise adalah Home Produksi yang menerima jasa pembuatan segala macam Marchendise logam, 
+                        dengan kualitas terbaik di Bandung, berpengalaman puluhan tahun menekuni bidang ini.
+                        Kami selalu mengutamakan kepuasan setiap Customer. Produk yang bisa kami produksi sebagai berikut 
+                        : Pin Enamel Custom, Mendali Custum, Pin Cor, Pin Akrilik, Name Tag, Pin Etching, dan 
+                        berbagai macam Marchendise promosi lainnya. kami memberikan harga terbaik dengan kualitas Premium</p>
+
+                    <button class="primary-button mt-4" onclick=whatsapp()>Pesan Sekarang</button>
+                </div>
+
+                <div class="col-md-6 order-md-2 order-1 d-flex justify-content-center align-items-center"
+                    data-aos="fade-up" data-aos-duration="2000">
+                    <img src="assets/Logo 2.png" class="d-block w-75" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Service -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center fw-semibold text-light">Kenapa Harus Kami</h2>
+                    <div class="divider mx-auto mt-1 mb-5"></div>
+                </div>
+                <div class="col-12">
+                    <h4 class="text-center fw-semibold text-light">Karena memberikan harga terendah,siap bersaing.Berpengalaman puluhan tahun.Penghasil produk marchendise terbaik di Bandung.</h4>
+              
+                </div>
+                <div class="col-12 col-lg-4 mt-lg-0 text-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="my-2 my-lg-5 card-about position-relative">
+                        <div class="mb-4 wraper-about d-flex justify-content-center align-items-center">
+                            <img src="assets/3. Web Check.png" class="w-50" alt="">
+                        </div>
+                        <h4 class="text-light">Jaminan Kualitas Kami</h4>
+                        <span class="lh-base text-light">Kami Menjamin Kualitas produk yang kami hasilkan berkualitas
+                            premium serta
+                            hasil pewarnaan kami awet dan tidak luntur.selain itu juga bentuk persisi sesuai
+                            desain</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 mt-lg-0 text-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="my-2 my-lg-5 card-about position-relative">
+                        <div class="mb-4 wraper-about d-flex justify-content-center align-items-center">
+                            <img src="assets/5. User targeting.png" class="w-50" alt="">
+                        </div>
+                        <h4 class="text-light">Team Handal</h4>
+                        <span class="lh-base text-light">Kami memiliki team produksi yang handal serta profesional
+                            dibidangnya sehingga menghasilkan produk pesanan anda berkualitas dan cepat dalam waktu
+                            pengerjaan, sehingga tidak perlu khawatir masalah deadline</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 mt-lg-0 text-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="my-2 my-lg-5 card-about position-relative">
+                        <div class="mb-4 wraper-about d-flex justify-content-center align-items-center">
+                            <img src="assets/8. Market Launch.png" class="w-50" alt="">
+                        </div>
+                        <h4 class="text-light">Gratis Biaya Pengiriman</h4>
+                        <span class="lh-base text-light">Kami memberikan gratis biaya pengiriman, keseluruh wilayah
+                            diindonesia ( S&K berlaku )</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service -->
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-lg-1 order-2 mt-1 mt-lg-0" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <h2>Enamel Pin Custom | Pin Enamel Custom | Pin Custom Bandung</h2>
+                    <div class="divider"></div>
+                    <p class="mt-4">Setiap produk yang kami buat di proses dengan bahan baku terbaik,berkualitas.
+                        Pengerjaan di proses secara detail sehingga menghasilkan kualitas terbaik.
+                    </p>
+                    <button class="primary-button mt-4" id="hubungi-nav" onclick=email()>Hubungi Kami</button>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1 justify-content-center align-items-center d-flex mb-5 mb-lg-0"
+                    data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="assets/2. Email Campaign.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+
+    <!-- Product -->
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Produk Kami</h2>
+                    <div class="divider mx-auto mb-5"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (1).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (2).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (3).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (4).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (5).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (6).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (7).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (8).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (9).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (10).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (11).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (12).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (13).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (14).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (15).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (16).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (17).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (18).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (19).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (20).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (21).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (22).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (23).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (24).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (25).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (26).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (27).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mt-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="img-wraper">
+                            <img src="assets/Product/Product (28).jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body d-flex justify-content-end align-items-center">
+                            <span>Terjual</span>
+                            <p class="card-text fw-semibold ms-auto d-inline-block">Terlaris</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Product -->
+
+    <!-- Section Contact -->
+    <section id="contact-info">
+        <div class="container">
+            <div class="row justify-content-center text-center pb-5">
+                <div class="col-12 mb-5">
+                    <h2>Hubungi Kami</h2>
+                    <p class="mt-1 mx-auto">Anda bisa pesan melalui online dengan menghubungi kontak kami, atau
+                        anda bisa
+                        mengunjungi workshop kami di alamat dibawah ini.</p>
+                    <div class="divider mx-auto"></div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-7 mt-4 mt-lg-4 d-flex justify-content-center align-items-center flex-column"
+                    data-aos="flip-left" data-aos-duration="2000">
+                    <a href="https://api.whatsapp.com/send?phone=6285722234393&text=Hallo%20Saya%20tertarik%20dengan%20jasa%20dan%20produk%20anda%2C%20saya%20ingin%20order%20sesuatu"
+                        class="contact-info-wraper d-flex justify-content-center align-items-center">
+                        <div class="contact-info-wraper2 d-flex justify-content-center align-items-center">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </div>
+                    </a>
+
+                    <h6 class="mt-4 fw-semibold">085722234393</h6>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-7 mt-4 mt-lg-4 d-flex justify-content-center align-items-center flex-column"
+                    data-aos="flip-left" data-aos-duration="2000">
+                    <a href="mailto:faizmarchendise@gmail.com"
+                        class="contact-info-wraper d-flex justify-content-center align-items-center">
+                        <div class="contact-info-wraper2 d-flex justify-content-center align-items-center">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                    </a>
+                    <h6 class="mt-4 fw-semibold">faizmarchendise@gmail.com</h6>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-7 mt-4 mt-lg-4 d-flex justify-content-center align-items-center flex-column"
+                    data-aos="flip-left" data-aos-duration="2000">
+                    <a href="tel:085722234393"
+                        class="contact-info-wraper d-flex justify-content-center align-items-center">
+                        <div class="contact-info-wraper2 d-flex justify-content-center align-items-center">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                    </a>
+                    <h6 class="mt-4 fw-semibold">085722234393</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Contact -->
+
+    <ul id="menu" class="mfb-component--br mfb-slidein-spring" data-mfb-toggle="hover">
+        <li class="mfb-component__wrap">
+            <a href="#" class="mfb-component__button--main">
+                <!-- <ion-icon name="chatbubble-ellipses-outline"></ion-icon> -->
+                <ion-icon name="chatbubbles-outline" class="position-absolute top-50 start-50 translate-middle">
+                </ion-icon>
+            </a>
+            <ul class="mfb-component__list">
+                <li>
+                    <a href="tel:085722234393" data-mfb-label="Call Me" class="mfb-component__button--child">
+                        <ion-icon name="call-outline" class="position-absolute top-50 start-50 translate-middle">
+                        </ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=6285722234393&text=Hallo%20Saya%20tertarik%20dengan%20jasa%20dan%20produk%20anda%2C%20saya%20ingin%20order%20sesuatu"
+                        data-mfb-label="Whatsapp Me" class="mfb-component__button--child">
+                        <ion-icon name="logo-whatsapp" class="position-absolute top-50 start-50 translate-middle">
+                        </ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:faizmarchendise@gmail.com" data-mfb-label="Email Me"
+                        class="mfb-component__button--child">
+                        <ion-icon name="mail-outline" class="position-absolute top-50 start-50 translate-middle">
+                        </ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Map -->
+    <section id="map">
+        <div class="container">
+            <div class="row d-flex aligm-items-center jusify-content-center text-center">
+                <div class="col-12 mb-5">
+                    <h2>Alamat Kami</h2>
+                    <p class="mt-1 mx-auto">JL. jamika GG.bahpian RT.07 RW 06 kel.sukahaji kec.babakan Ciparay Bandung
+                        Code pos 40221</p>
+                    <div class="divider mx-auto"></div>
+                </div>
+                <div class="col-lg-12 d-flex jusify-content-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="mapouter w-100 over-flow-hidden">
+                        <div class="gmap_canvas w-100 over-flow-hidden">
+                            <iframe id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=JL.%20jamika%20GG.bahpian%20RT.07%20RW%2006%20kel.sukahaji%20kec.babakan%20Ciparay%20Bandung&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                            <a href="https://123movies-to.org"></a><br>
+                            <!-- <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 400px;
+                                    width: 80vw;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">custom google map generator</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 400px;
+                                    width: 80vw;
+                                } -->
+                            <!-- </style> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- eND mAP -->
+
+    <!-- Bootstrap -->
+    <!-- For Online -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"> -->
+    </script>
+    <!-- Bootstrap For Offline -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/mfb.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
