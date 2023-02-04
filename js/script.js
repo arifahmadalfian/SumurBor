@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
 
 
 function whatsapp() {
-    window.location.href ="https://api.whatsapp.com/send?phone=6285722234393&text=Hallo%20Saya%20tertarik%20dengan%20jasa%20pembuatan%20sumurbor%20Anda%20saya%20ingin%20komunikasi%lebih%20lanjut";
+    window.location.href ="https://api.whatsapp.com/send?phone=082116777722&text=Hallo%20Saya%20tertarik%20dengan%20jasa%20pembuatan%20sumurbor%20Anda%20saya%20ingin%20komunikasi%20lebih%20lanjut";
 }
 
 function email() {
